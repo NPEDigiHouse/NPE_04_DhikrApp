@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">DhikrApp</string>
+    <string name="tvemail">Email</string>
+    <string name="tvpassword">Password</string>
+    <string name="btnsignup">Sign Up</string>
+    <string name="tvhaveanaccount">sudah punya akun? silahkan login disini</string>
+    <string name="btnlogin">Login</string>
+    <string name="tvregister">Register</string>
+    <string name="tvforgotpassword">Forgot Password</string>
+    <string name="tvlogout">Reset Password</string>
+    <string name="btnlogout">Log Out</string>
+    <string name="tvfullname">Full Name</string>
+    <string name="tvage">Age</string>
+    <string name="cbrememberme">Remember Me</string>
+    <string name="tvreset">enter your email addres and we\'ll send you a link to reset your password</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="title_activity_nav_home">NavHome</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="tvhadist">"Ingatlah Aku, dan Akan akan mengingat mu"\n\n TQS. Al-Baqarah(2) ayat 152</string>
+    <string name="tvdescription">Fitur Satu Hari Satu Ayat ini \n merupakan firut yang memudahkan \n anda dalam mencatat dan \n mempelajari 1 ayat setiap hari, \n dengan cara, anda dapat \n membula Al-Qur\'an dan memilih \n satu ayat dan mempelajari terjemahan \n beserta tafsirannya kemudian catat \n riwayat anda dengan menggunakan fitur ini \n \n Catat Setiap Hal Yang Kamu Pelajari Hari Ini ;)</string>
+    <string name="tvtextabout">Aplikasi E-Dhikr merupakan aplikasi\n yang dirancang oleh DwiGusna,\n Annisa, dan Anisah Fitriyyah R.\n\n Aplikasi sederhana ini memliki fitur\n utama yaitu menampilkan kumpulan\n doa dan dzikir. Aplikasi ini bisa\n menjadi solusi ketika anda ingin\n berdzikir dimana saja tanpa harus\n mencari file e-book dzikir atau\n buku dzikir</string>
+</resources>
