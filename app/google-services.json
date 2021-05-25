@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "133982037660",
+    "project_id": "dhikrapp-4dd7e",
+    "storage_bucket": "dhikrapp-4dd7e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:133982037660:android:f1b42e2a14a21f9c95af59",
+        "android_client_info": {
+          "package_name": "com.example.dhikrapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "133982037660-nnfldu3sutd2ef370oubcrpaesn145nv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPbMTYrsg2UgGfD1_QGTbIp6JjETlZ1Uc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "133982037660-nnfldu3sutd2ef370oubcrpaesn145nv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
