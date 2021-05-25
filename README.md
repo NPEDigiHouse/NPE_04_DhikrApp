@@ -1,2 +1,0 @@
-# DhikrApp
-create an repositories
