@@ -23,6 +23,13 @@ public class FragmentHome extends Fragment implements View.OnClickListener {
 
     ImageView imgDzikirPagi, imgDzikirPetang, imgDzikirSetelahSholat, imgSatuhariSatuAyat;
 
+    public static FragmentHome newInstance() {
+        FragmentHome fragment = new FragmentHome();
+        Bundle args = new Bundle();
+        fragment.setArguments(args);
+        return fragment;
+    }
+
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -38,6 +45,7 @@ public class FragmentHome extends Fragment implements View.OnClickListener {
         imgDzikirPetang.setOnClickListener(this);
         imgDzikirSetelahSholat.setOnClickListener(this);
         imgSatuhariSatuAyat.setOnClickListener(this);
+
 
         Glide.with(getContext()).load(R.drawable.dzhikir_setelah_sholat).into(imgDzikirSetelahSholat);
         Glide.with(getContext()).load(R.drawable.dzikir_pagi).into(imgDzikirPagi);

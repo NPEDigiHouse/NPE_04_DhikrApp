@@ -13,6 +13,13 @@ import com.example.dhikrapp.R;
 
 public class FragmentReport extends Fragment {
 
+    public static FragmentReport newInstance() {
+        FragmentReport fragment = new FragmentReport();
+        Bundle args = new Bundle();
+        fragment.setArguments(args);
+        return fragment;
+    }
+
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {

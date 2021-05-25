@@ -8,6 +8,7 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 
+import androidx.fragment.app.Fragment;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
@@ -29,6 +30,7 @@ public class Home extends AppCompatActivity implements NavigationView.OnNavigati
     NavigationView nav;
 
     Button btnLogout;
+    Fragment fragment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -61,9 +63,10 @@ public class Home extends AppCompatActivity implements NavigationView.OnNavigati
 
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+
         switch (item.getItemId()){
             case R.id.navHome:
-                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new FragmentHome()).commit();
+                fragment = FragmentHome.newInstance();
                 break;
             case R.id.navLogout:
                 FirebaseAuth.getInstance().signOut();
@@ -72,13 +75,16 @@ public class Home extends AppCompatActivity implements NavigationView.OnNavigati
                 startActivity(a);
                 break;
             case R.id.navReport:
-                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new FragmentReport()).commit();
+                fragment = FragmentReport.newInstance();
                 break;
             case R.id.navAbout:
-                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new FragmentAbout()).commit();
+                fragment = FragmentAbout.newInstance();
                 break;
         }
-        return false;
+        getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, fragment).commit();
+        drawer.closeDrawer(GravityCompat.START);
+
+        return true;
     }
 
     @Override
